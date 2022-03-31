@@ -1,8 +1,44 @@
-<div fxLayout="row" layout-wrap  fxLayoutAlign="space-around center" fxLayout.xs="column" fxLayoutGap="4px">
+<div class="learn" fxLayout="row" layout-wrap  fxLayoutAlign="space-between center" fxLayout.xs="column" fxLayoutGap="4px">
     <button fxFlex="20%">Button1</button>
     <button fxFlexOffset="20px" fxFlexAlign="start">Button2</button>
     <button fxFlexAlign="end">Button3</button>
+    <button fxFlex="20">Button4</button>
     <button fxFlex="10">Button5</button>
-    <button [fxHide.xs]="isMobile()">Button6</button>
-    <button [fxHide.lg]="invisibleOnDesktop()">Button7</button>
+    <!-- <button [fxHide.xs]="isMobile()">Button6</button> -->
+    <!-- <button [fxHide.lg]="invisibleOnDesktop()">Button7</button> -->
 </div>
+<div class="learn" fxLayout="row" layout-wrap fxLayoutAlign="space-around center" fxLayout.xs="column">
+    <button fxFlex="20">1</button>
+    <button fxFlex="20">2</button>
+    <button fxFlex="20">3</button>
+</div>
+<div class="task" fxLayout="row" fxLayoutAlign="space-around center">
+    <div class="box" fxLayout="column" fxLayoutAlign="center">
+        <div class="smallbox" >
+
+        </div>
+        <div class="smallbox2">
+            Twinkle, twinkle, little star,
+            How I wonder what you are!
+        Up above the world so high,
+        Like a diamond in the sky.
+        Twinkle, twinkle, little star,
+        How I wonder what you are!
+        </div>
+    </div>
+    <div class="box2" fxLayout="column" fxLayoutAlign="center">
+        <div class="smallbox3">
+           <div class="smallbox5"></div>
+        </div>
+        <div class="smallbox4">
+            Twinkle, twinkle, little star,
+            How I wonder what you are!
+        Up above the world so high,
+        Like a diamond in the sky.
+        Twinkle, twinkle, little star,
+        How I wonder what you are!
+        </div>
+    </div>
+</div>
+
+

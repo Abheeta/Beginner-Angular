@@ -11,6 +11,6 @@ div.containerX{
     border: solid 1px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
-    background:lightblue;
+    /* background:lightblue; */
     text-align: center;
 }

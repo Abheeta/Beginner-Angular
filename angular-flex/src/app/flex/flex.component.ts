@@ -17,7 +17,7 @@ export class FlexComponent implements OnInit {
   }
 
   invisibleOnDesktop() {
-    return false;
+    return true;
   }
 
 }

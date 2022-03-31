@@ -1,0 +1,19 @@
+.card1{
+    max-width: 250px;
+    
+    color:black;
+  }
+  
+  .card1-image {
+    background-image: url('https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg"');
+    background-size: cover;
+  }
+  .content{
+      color: black;
+      padding:16px;
+  }
+  .content > mat-card{
+      margin-bottom:16px;
+  }
+
+  

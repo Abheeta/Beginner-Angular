@@ -1,0 +1,45 @@
+<!-- <div class="task2">
+    <mat-card class="card1">
+        <mat-card-header>
+            <div mat-card-avatar class="card1-image"></div>
+            <mat-card-title>Mountain1</mat-card-title>
+        </mat-card-header>
+
+        <img mat-card-image src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg" alt="mountain1">
+        <mat-card-content>
+            <p>
+                This the first mountain
+            </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-flat-button>LIKE</button>
+            <button mat-flat-button>SHARE</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+
+ -->
+
+
+ <div class="content">
+     <div fxLayout="row wrap" fxLayoutGap="16px grid">
+         <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3,4,5,6,7]">
+             <mat-card class="mat-elevation-z4" >
+                 <div></div>
+                 <mat-card-header>
+                     <mat-card-title>Mountains{{num}}</mat-card-title>
+                     <img mat-card-image src="https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max">
+                     <mat-card-content>
+                         <p>Beautiful mountain</p>
+
+                     </mat-card-content>
+                     <mat-card-actions>
+                         <button mat-button>LIKE</button>
+                         <button mat-button>SHARE</button>
+                     </mat-card-actions>
+                 </mat-card-header>
+             </mat-card>
+         </div>
+     </div>
+
+ </div>
